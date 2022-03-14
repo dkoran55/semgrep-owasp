@@ -6,7 +6,7 @@ on:
     paths:
     - .github/workflows/semgrep.yml
   schedule:
-  - cron: '50 18 * * *'
+  - cron: '40 20 * * *'
 name: Semgrep
 jobs:
   semgrep:

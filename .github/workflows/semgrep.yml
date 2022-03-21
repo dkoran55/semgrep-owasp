@@ -1,8 +1,7 @@
 on:
   pull_request: {}
-  push:
-    branches:
-    - main
+  schedule:
+    - cron: '0 19 * * *'
 name: Semgrep
 jobs:
   semgrep:
